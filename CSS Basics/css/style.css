@@ -19,12 +19,41 @@ h1, h2 {
 
 }
 
+.box {
+    background-color: pink;
+    width: 300px;
+    padding: 30px;;
+    border: 20px solid greenyellow;
+    margin: 30px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-image: url("/CSS Basics/img/back.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+    background-color: gray;
+}
+
+a.visited{
+    color: purple;
+}
+
+/*
 .standard-box {
     background-color: pink;
     width: 300px;
     padding: 30px;;
     border: 20px solid greenyellow;
     margin: 30px;
+    box-sizing: border-box;
 }
 
 .border-box {
@@ -33,5 +62,6 @@ h1, h2 {
     padding: 30px;;
     border: 20px solid greenyellow;
     margin: 30px;
-    box-sizing: border-box;
+    
 }
+*/
